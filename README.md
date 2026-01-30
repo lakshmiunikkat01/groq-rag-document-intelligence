@@ -79,16 +79,9 @@ Traditional keyword-based document search often fails to provide meaningful answ
 -Generate final response using LLM
 
 
-## Project Structure
-rag_project/
-│── data/                  # Input documents
-│── vectorstore/            # Stored embeddings
-│── ingest.py               # Document ingestion and embedding generation
-│── retrieve_generate.py    # Retrieval and answer generation
-│── requirements.txt        # Project dependencies
-│── README.md
 
-## 🚀 How to Run the Project
+
+##  How to Run the Project
 
 1. Clone the repository
 2. Install dependencies  

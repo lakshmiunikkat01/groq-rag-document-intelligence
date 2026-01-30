@@ -81,23 +81,48 @@ Traditional keyword-based document search often fails to provide meaningful answ
 
 
 
-##  How to Run the Project
+## How to Run the Project
 
-1. Clone the repository
-2. Install dependencies  
-   ```bash
-   pip install -r requirements.txt
-3.Add required API keys as environment variables
-4.Add Documents for Ingestion
-Place all input files inside the data/ directory.
+Clone the repository
+
+git clone <repository-url>
+cd rag_project
+
+
+Install dependencies
+
+pip install -r requirements.txt
+
+
+Add required API keys as environment variables
+
+Windows
+
+set OPENAI_API_KEY=your_api_key_here
+
+
+Linux / macOS
+
+export OPENAI_API_KEY=your_api_key_here
+
+
+Add documents for ingestion
+
+Place all input files inside the data/ directory:
 
 data/
- ├── sample.pdf
- ├── notes.txt
- └── document.docx
-5. Run Document Ingestion
+├── sample.pdf
+├── notes.txt
+└── document.docx
+
+
+Run document ingestion
+
 python ingest.py
-6. Run Retrieval and Generation
+
+
+Run retrieval and generation
+
 python retrieve_generate.py
 ##  Conclusion
 
